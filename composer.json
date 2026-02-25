@@ -1,5 +1,5 @@
 {
-    "name": "gtmassey/laravel-analytics",
+    "name": "the-curve-consulting/laravel-analytics",
     "description": "Create and run Google Analytics Data API queries in Laravel",
     "license": "MIT",
     "authors": [
@@ -11,22 +11,26 @@
         {
             "name": "Vytautas Smilingis",
             "role": "Contributor"
+        },
+        {
+            "name": "Peter Nixon",
+            "role": "Contributor"
         }
     ],
-    "homepage": "https://github.com/gtmassey/laravel-analytics/",
+    "homepage": "https://github.com/the-curve-consulting/laravel-analytics/",
     "keywords": [
         "Laravel",
         "Analytics",
 	    "Google Analytics"
     ],
     "require": {
-        "php": "^8.1|^8.2|^8.3",
+        "php": "^8.1|^8.2|^8.3|^8.4",
         "google/analytics-data": "^v0.9.0",
         "gtmassey/period": "^1.2.0",
-        "illuminate/support": "^10.0|^11.0",
-        "nesbot/carbon": "^2.63",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "nesbot/carbon": "^3.11",
         "spatie/laravel-data": "^3.12",
-        "spatie/laravel-package-tools": "^1.13"
+        "spatie/laravel-package-tools": "^1.93"
     },
     "require-dev": {
         "larastan/larastan": "^2.9",
@@ -37,7 +41,7 @@
         "phpstan/phpstan-deprecation-rules": "^1.1.2",
         "phpstan/phpstan-mockery": "^1.1.1",
         "phpstan/phpstan-phpunit": "^1.3.7",
-        "phpunit/phpunit": "^10",
+        "phpunit/phpunit": "^10|^11",
         "rregeer/phpunit-coverage-check": "^0.3.1"
     },
     "autoload": {
